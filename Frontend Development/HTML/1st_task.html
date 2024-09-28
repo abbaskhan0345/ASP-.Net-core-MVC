@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servey Form</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- Html for a servey form  -->
+      <h1>Servey Form</h1>
+      <div class="container">
+        <form action="server_whatever" method="post">
+          <!-- caption  -->
+          <caption>
+            <i>Thank you for your time to give us feedback</i>
+          </caption>
+          <br />
+          <br />
+
+          <!-- for name  -->
+          <label for="Name"
+            >Name <br />
+            <input
+              type="text"
+              name="Name"
+              id="Name"
+              placeholder="Enter Your Name"
+            />
+          </label>
+          <br />
+          <br />
+
+          <!-- For Email  -->
+          <label for="Email"
+            >Email
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Emainl"
+            />
+          </label>
+          <br />
+          <br />
+
+          <!-- For Age  -->
+          <label for="Age"
+            >Age <br />
+            <input
+              type="number"
+              name="Age"
+              id="Age"
+              placeholder="Enter you age"
+              min="18"
+            />
+          </label>
+          <br />
+          <br />
+
+          <!-- For choosing A RULE -->
+          <label for="Role"
+            >Choose a role that best describe you <br />
+            <select name="Role" id="Role">
+              <option value="Nothing" selected disabled>
+                Select Your Role
+              </option>
+              <option value="Doctor">Doctor</option>
+              <option value="Engineer">Engineer</option>
+              <option value="Police_officer">Policeofficer</option>
+            </select></label
+          >
+          <br />
+          <br />
+
+          <!-- For RecomindTIONS -->
+          <label for="Recommend"
+            >Whould You Recommend Our Product To A Friend?</label
+          >
+          <br />
+          <label for="Never">
+            <input type="radio" name="Recommend" id="Never" />
+            Never
+          </label>
+          <br />
+          <!-- <label for="mabye"
+            ><input type="radio" name="Recommend" id="mabye" />Mabye</label
+          >
+          <label for="Mabye">
+            <input type="radio" name="Recommend" id="Maybe" />
+            Mabye</label
+          > -->
+
+          <label for="May">
+            <input type="radio" name="Recommend" id="May" />
+            Maybe
+          </label>
+
+          <br />
+          <label for="Likely">
+            <input type="radio" name="Recommend" id="Likely" />
+            Likely
+          </label>
+          <br />
+          <label for="Definetly">
+            <input type="radio" name="Recommend" id="Definetly" />
+            Definetly
+          </label>
+          <br />
+          <br />
+
+          <!-- For Liking a product  -->
+          <label for="Like">Select things You Like About Our Product</label>
+          <br />
+          <label for="UI">
+            <input type="checkbox" name="Like" id="UI" />
+            UI
+          </label>
+          <br />
+          <label for="Features">
+            <input type="checkbox" name="Like" id="Features" />
+            Features</label
+          >
+          <br />
+          <label for="Services">
+            <input type="checkbox" name="Like" id="Services" />
+            Services
+          </label>
+          <br />
+          <label for="Simpleness">
+            <input type="checkbox" name="Like" id="Simpleness" />
+            Simpleness
+          </label>
+          <br />
+          <br />
+
+          <!-- Submit  -->
+          <label for="Submit">
+            <input type="submit" name="Submit" id="Submit" />
+          </label>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
