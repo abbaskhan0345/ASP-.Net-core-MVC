@@ -1,0 +1,58 @@
+section {
+  padding: 60px 0px;
+}
+#navbar {
+  /* background-color: #6c757d; */
+  /* color: #c49e43; */
+}
+
+.header-text {
+  color: #c49e43;
+}
+
+.header-text:hover {
+  color: white;
+}
+
+.btn {
+  background-color: #b38926;
+  border: 1px solid black;
+}
+.btn:hover {
+  color: #c49e43;
+  background-color: black;
+  border: 2px solid #c49e44;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+.black-belt {
+  color: #c49e44;
+}
+
+.card-text- {
+  color: #b38926;
+}
+
+.headings {
+  color: #c49e44;
+}
+
+.section-of-gold {
+  background-color: #f5e3be;
+}
+
+.bi-star-fill,
+.bi-star,
+.bi-star-half,
+.bi-chat-right-dots-fill,
+.bi-person-fill,
+.bi-envelope-fill {
+  color: #ffd700;
+}
+
+#contact {
+  background-image: linear-gradient(rgb(246, 247, 240), rgb(245 227 190));
+}
